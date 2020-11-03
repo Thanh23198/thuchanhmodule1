@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Solveptb1(a, b) {
+        if (a === 0) {
+            if (b !== 0) {
+                return "pt vo nghiem";
+            }
+            if (b === 0) {
+                return "pt co vo so nghiem";
+            }
+        }
+        if (a !== 0) {
+            return "pt co nghiem la x = " + (-b / a);
+        }
+    }
+    let a = 5;
+    let b = 8;
+    document.write(Solveptb1(a, b));
+</script>
+</body>
+</html>
