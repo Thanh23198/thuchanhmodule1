@@ -10,17 +10,17 @@
 </body>
 <script>
     // phần 1
-
+    let arr = [1,2,3,4,5,6,7,8,9,10];
+    let x =10;
     function findPosition(x, arr) {
         for (let i = 0; i < arr.length; i++) {
             if (arr[i] === x) {
-                return console.log(i);
+                return i;
             }
         }
     }
-    let arr = [1,2,3,4,5,6,7,8,9,10];
-    let x =10;
-    findPosition(x, arr);
+
+    document.write(findPosition(x, arr));
 
 
 

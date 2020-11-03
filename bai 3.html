@@ -6,6 +6,7 @@
 </head>
 <body>
 <script>
+    let str = "aei212121kkkkk";
     function countCharacter(str) {
         let count = 0;
         for (let i = 0; i < str.length; i++) {
@@ -14,14 +15,14 @@
             }
         }
         if (count === 0) {
-            console.log(false);
+            return false;
         }
         else {
-            console.log(count);
+            return count;
         }
     }
-    let str = "a212121kkkkk";
-    countCharacter(str);
+
+    document.write(countCharacter(str));
 </script>
 
 </body>
